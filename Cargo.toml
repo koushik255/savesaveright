@@ -8,6 +8,9 @@ members = [
 
 [workspace.dependencies]
 dioxus = { version = "0.6.0" }
+reqwest     = { version = "0.12", features = ["json","rustls-tls"] }
+scraper     = "0.19"
+serde       = { version = "1.0", features = ["derive"] }
 
 # workspace
 ui = { path = "ui" }

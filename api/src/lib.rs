@@ -1,5 +1,5 @@
 use dioxus::prelude::*;
-use serde::Serialize;
+use serde::{Deserialize, Serialize};
 
 #[cfg(feature = "server")]
 use rusqlite::Connection;
