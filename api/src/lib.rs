@@ -22,11 +22,6 @@ pub struct Save {
     pub id: i64,
 }
 
-#[server(Echo)]
-pub async fn echo(input: String) -> Result<String, ServerFnError> {
-    Ok(input)
-}
-
 #[server(Name)]
 pub async fn name() -> Result<String, ServerFnError> {
     let blud = "koushik (This is from server)".to_string();

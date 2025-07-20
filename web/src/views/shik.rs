@@ -5,9 +5,10 @@ use ui::{Blud, Input, List};
 #[component]
 pub fn Shik() -> Element {
     rsx! {
-    List{}
      Blud{}
      Input{}
+
+     List{}
          // space question mark for helix:
 
         div {
